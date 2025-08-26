@@ -1,1 +1,1 @@
-web: gunicorn project_x.wsgi:application
+web: gunicorn uniportal.wsgi:application
