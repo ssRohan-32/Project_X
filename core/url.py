@@ -38,6 +38,6 @@ router.register(r'consultations', ConsultationViewSet)
 router.register(r'consultation-messages', ConsultationMessageViewSet)
 
 urlpatterns = [
-    path('', home, name='home'),
-    path('api/', include(router.urls)),
+    
+    path('', include(router.urls)),
 ]
